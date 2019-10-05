@@ -64,9 +64,11 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 60px;
+    font-size: 48px;
+    text-shadow: 3px 3px 1px #e7cfcf;
     
 }
+
 
 /* .title h1 {
     color:#E6D72A;
@@ -112,6 +114,52 @@ section{
 .subtitle2{
     font-size: 12pt;
 }
+.name{
+    display: flex;
+    justify-content: center;
+    text-shadow: 3px 3px 2px #40b396;
+    align-items: center;
+    color: white;
+    font-size: 48pt;
+}
+.info-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+
+}
+.my-img{
+    margin-top: 50px;
+    /* border: #6d6d66; */
+    display: flex;
+    box-shadow: 6px 6px 0px #dcd14c, -6px -6px 0px #5bc8ac;
+    width: 30%;
+}
+.info-about{
+    display: flex;
+    width: 60%;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.objectives-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.hobbies-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.hobbies{
+    margin-top: 50px;
+}
+
+
 .menu{
     display: flex;
     position: fixed;
