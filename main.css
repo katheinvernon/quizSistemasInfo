@@ -16,9 +16,7 @@ section{
     min-height: 100vh;
     background: linear-gradient(45deg, #f18d9e, #f18dc9);
     font-size: 2rem;
-    border-style: dotted;
-    border-width: 5px;
-    border-color: black;
+    
 }
 .section .hero{
     display: flex;
@@ -221,7 +219,41 @@ section{
     align-items: center;
     background-color: #5BC8AC;
 }
-
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.info-contact{
+    height: 70vh;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.social-icon{
+    transition: 1s ;
+}
+.social-icon:hover{
+    display: flex;
+    transform: scale(1.5);
+    
+}
+.top-button{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+}
+.top-button.show{
+    opacity:1;
+    visibility: visible;
+}
 .menu{
     display: flex;
     position: fixed;
