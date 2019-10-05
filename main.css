@@ -47,6 +47,7 @@ section{
     width: 100%;
     height: 100%;
     justify-content: center;
+    box-shadow: 2px 6px 1px #f6f6d5;
     align-items: center;
     background-color: #F18D9E;
     transition: 1.5s ease-in-out;
@@ -71,6 +72,46 @@ section{
     color:#E6D72A;
     
 } */
+.box-projects{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.project{
+    height: 150px;
+    width: 90%;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 1px #6d6d66;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color: #F18D9E;
+}
+.info-project{
+    height: 150px;
+    width: 50%;
+}
+.title-project{
+    height: 150px;
+    width: 20%;
+}
+.img-project{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title2{
+    font-size: 20pt;
+}
+.subtitle{
+    font-size: 16pt;
+}
+.subtitle2{
+    font-size: 12pt;
+}
 .menu{
     display: flex;
     position: fixed;
